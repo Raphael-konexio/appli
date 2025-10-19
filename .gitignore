@@ -1,0 +1,35 @@
+# Fichiers de tokens et secrets
+node-token
+*.token
+*.secret
+
+# Fichiers d'état Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Fichiers de variables sensibles
+*.tfvars
+*.tfvars.json
+
+# Fichiers d'override locaux
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Lock files
+.terraform.tfstate.lock.info
+
+# Fichiers de plan
+*tfplan*
+
+# Fichiers de config CLI
+.terraformrc
+terraform.rc
+
+# Fichiers Vagrant
+.vagrant/
+*.box
+*.vdi
+*.vmdk
